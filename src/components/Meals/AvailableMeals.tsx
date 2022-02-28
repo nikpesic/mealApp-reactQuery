@@ -16,7 +16,7 @@ export type MealObj = {
 
 const fetchMeals = async () => {
   const response = await axios.get<MealObj[]>(
-    'https://mealapp-typescript-default-rtdb.firebaseio.com/meals.json'
+    'https://mealapp-typescript-b3c22-default-rtdb.firebaseio.com/meals.json'
   );
   return await response.data;
 };
