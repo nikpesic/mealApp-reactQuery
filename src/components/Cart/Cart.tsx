@@ -13,7 +13,7 @@ import { MealObj } from '../Meals/AvailableMeals';
 const postMealsItem = async (userData: OrderType) => {
   try {
     const response = await axios.post(
-      'https://mealapp-typescript-b3c22-default-rtdb.firebaseio.com/orders.json',
+      'https://mealapp-query-react-default-rtdb.firebaseio.com/orders.json',
       userData
     );
     return response;
